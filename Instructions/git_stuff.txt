@@ -20,7 +20,20 @@ Commits
 
 Commit, represents a change, compared to last state.
 
+To commit locally into the current branch:
+git commit
+You will type a commit message, that should describe what has been comitted.
+
+git push -> pushes the local commited change, into the remote repository (github)
+
 Typing:
 git status, allows us to see all pending changes to a commit, or
 changes that haven't been added to a commit yet.
 
+GitIgnore
+---------
+
+In the root project directory, you can create .gitignore
+All files / directories specified there -> will be ignored in adding to commits
+This specifically, you need to force add.
+git add -f .gitignore
