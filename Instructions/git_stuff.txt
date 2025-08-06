@@ -1,0 +1,26 @@
+Each git repository, comes with 'main' branch as default.
+
+What is commit ?
+Commit -> represents a set of changes (delta), from previous state (commit).
+Change can be : added file(s) / edited file(s) / delete file(s)
+
+What is branch ?
+
+All commits, are related to a certain 'branch'
+Branch allows to keep separation, between different commits.
+
+Commands
+--------
+
+To know which branch are you currently at:
+git status / git branch
+
+Commits
+-------
+
+Commit, represents a change, compared to last state.
+
+Typing:
+git status, allows us to see all pending changes to a commit, or
+changes that haven't been added to a commit yet.
+
