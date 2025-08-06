@@ -49,3 +49,19 @@ without rewriting eachother
 Creating a new branch:
 git checkout -b alon/new_feature
 In this specific point, the new branch will 'branch out' of the current branch.
+
+To change branches locally:
+git checkout <branch_name>
+
+Pull Request
+------------
+
+This is a github feature, that allows to inspect changed code for a branch,
+before we merge it.
+
+Merge
+-----
+
+Alon has started to develop a new feature, branched out of 'main' branch
+He finished. This branch, needs to be merged into main.
+
