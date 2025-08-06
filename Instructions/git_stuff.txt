@@ -37,3 +37,15 @@ In the root project directory, you can create .gitignore
 All files / directories specified there -> will be ignored in adding to commits
 This specifically, you need to force add.
 git add -f .gitignore
+
+Branches
+--------
+
+Branch, allow to retain specific development.
+For example: Me and amos are working on test_field git repository together
+Each of us, have their own 'branches', this allow amos and I , to develop
+without rewriting eachother
+
+Creating a new branch:
+git checkout -b alon/new_feature
+In this specific point, the new branch will 'branch out' of the current branch.
